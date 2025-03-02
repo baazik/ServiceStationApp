@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ServiceStation">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServiceStation</output-path>
+    <root id="root">
+      <element id="archive" name="ServiceStation.jar">
+        <element id="module-output" name="ServiceStation" />
+      </element>
+    </root>
+  </artifact>
+</component>
