@@ -4,6 +4,6 @@
 <?import javafx.scene.layout.VBox?>
 
 <VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/17"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="mb.company.Controller">
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="mb.company.PrimaryController">
     <Button text="Klikni mě" onAction="#handleButtonClick"/>
 </VBox>
