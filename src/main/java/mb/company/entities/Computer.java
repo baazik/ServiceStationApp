@@ -16,6 +16,12 @@ public class Computer {
         this.station = station;
     }
 
+    public Computer(String ipAdress, ComputerType computerType, Station station) {
+        this.ipAdress = ipAdress;
+        this.computerType = computerType;
+        this.station = station;
+    }
+
     public int getId() {
         return id;
     }
@@ -24,7 +30,7 @@ public class Computer {
         return computerType;
     }
 
-    public String getIpAdress() {
+    public String getIpAddress() {
         return ipAdress;
     }
 

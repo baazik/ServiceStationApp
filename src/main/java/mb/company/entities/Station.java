@@ -1,22 +1,23 @@
 package mb.company.entities;
 
-import java.util.List;
-import java.util.Optional;
-
 public class Station {
 
     private int id;
     private String name;
     private String address;
     private String country;
-    private List<Computer> computers;
 
-    public Station(int id, String name, String address, String country, List<Computer> computers) {
+    public Station(int id, String name, String address, String country) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.country = country;
-        this.computers = computers;
+    }
+
+    public Station(String name, String address, String country) {
+        this.name = name;
+        this.address = address;
+        this.country = country;
     }
 
     public String getName() {
@@ -35,10 +36,6 @@ public class Station {
         return country;
     }
 
-    public List<Computer> getComputers() {
-        return computers;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -55,10 +52,6 @@ public class Station {
         this.country = country;
     }
 
-    public void setComputers(List<Computer> computers) {
-        this.computers = computers;
-    }
-
     @Override
     public String toString() {
         return new StringBuilder()
@@ -70,8 +63,6 @@ public class Station {
                 .append("address: ").append(address)
                 .append("|")
                 .append("country: ").append(country)
-                .append("|")
-                .append("number of computers: ").append((long) computers.size())
                 .append("}")
                 .toString()
                 ;

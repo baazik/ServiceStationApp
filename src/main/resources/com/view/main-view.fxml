@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/17"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="mb.company.PrimaryController">
-    <Button text="Klikni mě" onAction="#handleButtonClick"/>
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mb.company.controllers.MainController">
+  <children>
+    <AnchorPane prefHeight="456.0" prefWidth="558.0">
+         <children>
+             <Button fx:id="listStationsButton" layoutX="58.0" layoutY="91.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="158.0" text="List of ServiceStations" onAction="#showStationsView"/>
+             <Button fx:id="addStationButton" layoutX="226.0" layoutY="91.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="158.0" text="Add a Service Station" onAction="#showAddStationView"/>
+             <Button fx:id="addComputerButton" layoutX="392.0" layoutY="91.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="158.0" text="Add a Computer" onAction="#showAddComputerView"/>
+            <Label layoutX="58.0" layoutY="24.0" prefHeight="47.0" prefWidth="310.0" text="Service Stations Manager">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+    </AnchorPane>
+  </children>
 </VBox>

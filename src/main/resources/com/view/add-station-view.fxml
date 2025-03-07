@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="400.0" prefWidth="600.0" alignment="CENTER" hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mb.company.controllers.AddStationController">
+    <columnConstraints>
+        <ColumnConstraints prefWidth="150.0" />
+        <ColumnConstraints prefWidth="300.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Label text="Name:" />
+        <TextField fx:id="nameTextField" GridPane.columnIndex="1" />
+        <Label text="Address:" GridPane.rowIndex="1" />
+        <TextField fx:id="addressTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Label text="Country:" GridPane.rowIndex="2" />
+        <TextField fx:id="countryTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Button fx:id="saveButton" mnemonicParsing="false" text="Save" GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#saveStation"/>
+        <Button fx:id="cancelButton" mnemonicParsing="false" text="Back" GridPane.rowIndex="3" onAction="#backToMainMenu"/>
+    </children>
+</GridPane>
