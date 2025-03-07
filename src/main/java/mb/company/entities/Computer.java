@@ -57,15 +57,13 @@ public class Computer {
     @Override
     public String toString() {
         return new StringBuilder()
-                .append("Computer{")
                 .append("id: ").append(id)
-                .append("|")
+                .append(" | ")
                 .append("ip: ").append(ipAdress)
-                .append("|")
+                .append(" | ")
                 .append("type: ").append(computerType.getCode())
-                .append("|")
-                .append("station id/name: ").append(station.getId()).append("/").append(station.getName())
-                .append("}")
+                .append(" | ")
+                .append("station id / name: ").append(station.getId()).append(" / ").append(station.getName())
                 .toString()
                 ;
     }

@@ -55,15 +55,13 @@ public class Station {
     @Override
     public String toString() {
         return new StringBuilder()
-                .append("Service Station{")
                 .append("id: ").append(id)
-                .append("|")
+                .append(" | ")
                 .append("name: ").append(name)
-                .append("|")
+                .append(" | " )
                 .append("address: ").append(address)
-                .append("|")
+                .append(" | ")
                 .append("country: ").append(country)
-                .append("}")
                 .toString()
                 ;
     }
