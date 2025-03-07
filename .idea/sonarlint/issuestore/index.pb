@@ -5,10 +5,6 @@ R
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 R
 ".idea/artifacts/ServiceStation.xml,b\2\b2a27ce827615273b795b4019147e163e8e0c3c5
-_
-/src/main/java/mb/company/PrimaryController.java,a\a\aa16ae5feca5a6115d18300618a961f649af85c3
-a
-1src/main/java/mb/company/SecondaryController.java,e\a\ea7b4d2e84b12ab2bef05f63ef558c8a4ec90f24
 ^
 .src/main/java/mb/company/entities/Station.java,2\0\2083970f3a6b44ff44ca96d722dc35018f8d4ad8
 _
@@ -57,8 +53,6 @@ q
 Asrc/main/java/mb/company/controllers/StationDetailController.java,d\9\d9556edb65d5095edfba4a2919454150f8376033
 q
 Asrc/main/java/mb/company/exceptions/StationNotFoundException.java,0\b\0b0e6d455527f4e359a915c74cb29212da6d47f1
-r
-Bsrc/main/java/mb/company/controllers/ComputerDetailController.java,1\b\1b1f2b7c21edf4660102d8ee1400f8a33610da6a
 n
 >src/main/java/mb/company/controllers/AddStationController.java,e\2\e2b1e319c275da3072f4608064df8f813faa54f1
 o

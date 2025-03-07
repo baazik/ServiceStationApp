@@ -1,9 +1,0 @@
-
-“
-java:S1192*"KDefine a constant instead of duplicating this literal "station_id" 3 times.(õÆ½úøÿÿÿÿ8¯Ã½ıÖ2J$1343b934-5161-4421-b365-5233d36ff46f
-–
-java:S1192)"NDefine a constant instead of duplicating this literal "computer_type" 3 times.(³Ğ»Åşÿÿÿÿ8¼€õÖ2J$5cb91b90-f918-4970-bce0-f3daef1509f6
-’
-java:S1192("JDefine a constant instead of duplicating this literal "ip_adress" 3 times.(äÕ„şÿÿÿÿ8¼€õÖ2J$cae59f43-ee0a-4a27-97e4-a29cfa93497a
-Ú
-java:S1130j"‘Remove the declaration of thrown exception 'mb.company.exceptions.ComputerNotFoundInStationException', as it cannot be thrown from method's body.(ÉÆÀÂùÿÿÿÿ8ÊÍ£‚×2J$48af4a06-6750-4f2b-a6fc-978ff2f35334
